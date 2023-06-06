@@ -1,0 +1,86 @@
+body {
+  width: 300px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.note-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.note-item h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+}
+
+.note-item .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-hash,
+.show-plain,
+.delete {
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.show-hash:hover,
+.show-plain:hover,
+.delete:hover {
+  background-color: #e0e0e0;
+}
+
